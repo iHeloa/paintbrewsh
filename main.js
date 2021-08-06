@@ -1,8 +1,8 @@
 canvas = document.getElementById("myCanvas");
 ctx = canvas.getContext("2d");
 var width = screen.width;
-var new_width = screen.width -70;
-var new_height = screen.height -300;
+var new_width = screen.width -30;
+var new_height = screen.height -100;
 if (width<992) {
     document.getElementById("myCanvas").width = new_width;
     document.getElementById("myCanvas").height = new_height;
